@@ -1,7 +1,7 @@
 {
   "name": "node-express-typescript-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repo to use as template for Node Express TypeScript project",
   "main": "index.ts",
   "scripts": {
     "build": "tsc --project ./",
@@ -26,9 +26,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "tsconfig-paths": "3.9.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@jest/globals": "25.5.2",
+    "@jest/types": "^25.5.0",
     "@types/express": "^4.17.12",
     "@types/node": "^15.12.2",
     "babel-eslint": "^10.1.0",
@@ -41,12 +48,17 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-standard": "5.0.0",
+    "eslint-plugin-jest": "^23.9.0",
+    "jest": "26.4.0",
     "nodemon": "^2.0.7",
     "prettier": "^2.3.1",
     "prettier-standard": "^16.4.1",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2",
     "lint-staged": "^7.0.5",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "testdouble": "3.16.1",
+    "testdouble-jest": "2.0.0",
+    "ts-jest": "26.1.3"
   }
 }
